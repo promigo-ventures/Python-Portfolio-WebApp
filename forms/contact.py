@@ -1,6 +1,4 @@
 import re
-from tkinter.font import names
-
 import streamlit as st
 import requests
 
