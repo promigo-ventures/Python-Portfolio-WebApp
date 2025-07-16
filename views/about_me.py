@@ -8,7 +8,7 @@ def show_contact_form():
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
-    st.image("./assets/2021_01_29_07_02_IMG_0595.JPG", width=280)
+    st.image("./assets/WhatsApp Image 2025-07-15 at 9.29.23 PM.jpeg", width=280)
 with col2:
     st.title("Promise Godwin", anchor=False)
     st.write(
