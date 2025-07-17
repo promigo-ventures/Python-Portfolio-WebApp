@@ -20,6 +20,16 @@ project_2_page = st.Page(
     icon=':material/smart_toy:',
 )
 
+st.header("Promise Godwin's Portfolio", anchor=False)
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 #NAVIGATION SETUP
 pg = st.navigation({
      'Info': [about_page],
